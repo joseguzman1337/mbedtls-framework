@@ -16,33 +16,23 @@ Coverage
 *.gcno
 *.gcda
 coverage-summary.txt
-
 # Eclipse project files
 .cproject
 .project
 /.settings
-
 # Unix-like build artifacts:
 *.o
-
 # MSVC build artifacts:
 *.exe
 *.pdb
 *.ilk
 *.lib
-
 # Python build artifacts:
 *.pyc
-
-# CMake generates *.dir/ folders for in-tree builds (used by MSVC projects), ignore all of those:
-*.dir/
-
 # Microsoft CMake extension for Visual Studio Code generates a build directory by default
 /build/
-
 # Generated documentation:
 /apidoc
-
 # Editor navigation files:
 /GPATH
 /GRTAGS
@@ -51,8 +41,10 @@ coverage-summary.txt
 /TAGS
 /cscope*.out
 /tags
-
 # clangd compilation database
 compile_commands.json
 # clangd index files
 /.cache/clangd/index/
+# macOS system files
+.DS_Store
+._*
